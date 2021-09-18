@@ -1,0 +1,57 @@
+.GeneralElementryDiv{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
+
+
+  
+}
+
+
+
+@media screen and (max-width:425px){
+  .GeneralElementryDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+  }
+ 
+   
+ }
+
+ @media screen and (max-width:375px){
+  .GeneralElementryDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 45px;
+  }
+ 
+   
+ }
+
+
+ @media screen and (max-width:320px){
+  .GeneralElementryDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+  }
+ 
+   
+ }
+
+.subGeneralElementryDiv{
+  width:1200px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
